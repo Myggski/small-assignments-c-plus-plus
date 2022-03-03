@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{35b319f6-179b-4c2a-9996-ebabab9e3224}</ProjectGuid>
-    <RootNamespace>CelciusToFahrenheit</RootNamespace>
+    <RootNamespace>CelsiusToFahrenheit</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
