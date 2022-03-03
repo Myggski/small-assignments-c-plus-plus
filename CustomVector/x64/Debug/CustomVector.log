@@ -1,1 +1,6 @@
-﻿  CustomVector.vcxproj -> D:\FutureGames\Projects\Programming with C++\SmallAssignments\x64\Debug\CustomVector.exe
+﻿  main.cpp
+D:\FutureGames\Projects\Programming with C++\SmallAssignments\CustomVector\Vector.h(18,22): warning C4018: '<': signed/unsigned mismatch
+D:\FutureGames\Projects\Programming with C++\SmallAssignments\CustomVector\Vector.h(12): message : while compiling class template member function 'void Vector<std::string>::set_capacity(int)'
+D:\FutureGames\Projects\Programming with C++\SmallAssignments\CustomVector\Vector.h(126): message : see reference to function template instantiation 'void Vector<std::string>::set_capacity(int)' being compiled
+D:\FutureGames\Projects\Programming with C++\SmallAssignments\CustomVector\main.cpp(6): message : see reference to class template instantiation 'Vector<std::string>' being compiled
+  CustomVector.vcxproj -> D:\FutureGames\Projects\Programming with C++\SmallAssignments\x64\Debug\CustomVector.exe
