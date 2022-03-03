@@ -15,7 +15,11 @@ private:
 
 		if (oldData != nullptr)
 		{
-			std::memcpy(data, oldData, capacity * sizeof(T));
+			for (int i = 0; i < count; i++)
+			{
+				data[i] = oldData[i];
+			}
+
 			delete[] oldData;
 		}
 
@@ -30,13 +34,18 @@ public:
 	// Copy constructor
 	Vector(Vector<T>& other) : count{ other.count }, capacity{ other.capacity }
 	{
+		std::cout << "copy constructor\n";
 		if (data)
 		{
 			delete[] data;
 		}
 
 		data = new T[other.capacity];
-		std::memcpy(data, other.data, other.count * sizeof(Vector<T>));
+
+		for (int i = 0; i < count; i++)
+		{
+			data[i] = other.data[i];
+		}
 	}
 
 
@@ -61,6 +70,7 @@ public:
 
 	Vector<T>& operator=(const Vector<T>& other)
 	{
+		std::cout << "copy assignment\n";
 		if (&other != this) 
 		{
 			if (data)
@@ -72,7 +82,11 @@ public:
 			capacity = other.capacity;
 			data = nullptr;
 			data = new T[other.capacity];
-			std::memcpy(data, other.data, capacity * sizeof(Vector<T>));
+
+			for (int i = 0; i < count; i++)
+			{
+				data[i] = other.data[i];
+			}
 		}
 
 		return *this;

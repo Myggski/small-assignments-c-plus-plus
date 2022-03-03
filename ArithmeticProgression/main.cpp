@@ -25,7 +25,6 @@ int main() {
 	return 0;
 }
 
-// Why not pointer to array? Because we only want the sorted array in this function and not keep the array sorted afterwards
 bool isArithmetic(int arr[], const int& arrLength) {
 	if (arrLength < 3) {
 		return true;

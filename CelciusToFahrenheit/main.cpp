@@ -1,21 +1,21 @@
 #include <iostream>
 
-float celcius_to_fahrenheit(float celcius);
-int celcius_to_fahrenheit_int(int celcius);
+float celsius_to_fahrenheit(float celsius);
+int celsius_to_fahrenheit_int(int celsius);
 
 int main()
 {
-    std::cout << celcius_to_fahrenheit(36) << std::endl;
-    std::cout << celcius_to_fahrenheit_int(36) << std::endl;
+    std::cout << celsius_to_fahrenheit(36) << std::endl;
+    std::cout << celsius_to_fahrenheit_int(36) << std::endl;
 
     return 0;
 }
 
 // Returns only quotient and the reminder is discarded.
-int celcius_to_fahrenheit_int(int celcius) {
-    return celcius * 9 / 5 + 32;
+int celsius_to_fahrenheit_int(const int celsius) {
+    return celsius * 9 / 5 + 32;
 }
 
-float celcius_to_fahrenheit(float celcius) {
-    return celcius * 9 / 5 + 32;
+float celsius_to_fahrenheit(const float celsius) {
+    return celsius * 9 / 5 + 32;
 }

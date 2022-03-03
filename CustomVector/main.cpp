@@ -3,32 +3,16 @@
 
 int main()
 {
-	/*Vector<int> myVector;
+	Vector<std::string> myListOfStrings;
 
-	myVector.push_back(13);
-	myVector.push_back(3);
-	myVector.push_back(7);*/
+	myListOfStrings.push_back("This is a long string that contains text and such 1");
+	myListOfStrings.push_back("This is a long string that contains text and such 2");
+	myListOfStrings.push_back("This is a long string that contains text and such 3");
+	myListOfStrings.push_back("This is a long string that contains text and such 4");
+	myListOfStrings.push_back("This is a long string that contains text and such 5");
 
-
-	Vector<Vector<int>> derp;
-	Vector<int> snerp;
-	snerp.push_back(10);
-
-	derp = Vector<Vector<int>>();
-
-	derp.push_back(snerp);
-	derp.push_back(snerp);
-	derp.push_back(snerp);
-	derp.push_back(snerp);
-	derp.push_back(snerp);
-
-	int size = derp.size();
-	size = 10;
-
-
-	std::cout << derp.size() << std::endl;
-	std::cout << &derp.size() << std::endl;
-	std::cout << &size << std::endl;
+	std::cout << myListOfStrings.size() << std::endl;
+	std::cout << myListOfStrings.pop_back() << std::endl;
 
 	return 0;
 }
