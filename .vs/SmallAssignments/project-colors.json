@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b7ce7dae-3b04-4bd4-bf3f-fb7d335b5343": {
+      "ProjectGuid": "b7ce7dae-3b04-4bd4-bf3f-fb7d335b5343",
+      "DisplayName": "SmallAssignments",
+      "ColorIndex": 0
+    },
+    "20174c92-69ca-43db-a311-f3fdda28197b": {
+      "ProjectGuid": "20174c92-69ca-43db-a311-f3fdda28197b",
+      "DisplayName": "AbsoluteDifference",
+      "ColorIndex": 1
+    },
+    "35b319f6-179b-4c2a-9996-ebabab9e3224": {
+      "ProjectGuid": "35b319f6-179b-4c2a-9996-ebabab9e3224",
+      "DisplayName": "CelciusToFahrenheit",
+      "ColorIndex": 2
+    },
+    "19a284d7-c49c-4854-a268-5bdb3bde5564": {
+      "ProjectGuid": "19a284d7-c49c-4854-a268-5bdb3bde5564",
+      "DisplayName": "EvenOrOdd",
+      "ColorIndex": 3
+    },
+    "2093b7b7-e370-4a95-9205-ad7c3141d410": {
+      "ProjectGuid": "2093b7b7-e370-4a95-9205-ad7c3141d410",
+      "DisplayName": "LastDigitOfANumber",
+      "ColorIndex": 4
+    },
+    "9d1b61bb-2006-4df1-8c9a-3775f4bb2ef0": {
+      "ProjectGuid": "9d1b61bb-2006-4df1-8c9a-3775f4bb2ef0",
+      "DisplayName": "Swap",
+      "ColorIndex": 5
+    },
+    "86f2c552-177e-491a-91bc-7f478280d6d5": {
+      "ProjectGuid": "86f2c552-177e-491a-91bc-7f478280d6d5",
+      "DisplayName": "GuessingGame",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

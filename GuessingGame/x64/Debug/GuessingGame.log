@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\FutureGames\Projects\Programming with C++\SmallAssignments\GuessingGame\main.cpp(83,10): warning C4189: 'myRef': local variable is initialized but not referenced
+  GuessingGame.vcxproj -> D:\FutureGames\Projects\Programming with C++\SmallAssignments\x64\Debug\GuessingGame.exe
